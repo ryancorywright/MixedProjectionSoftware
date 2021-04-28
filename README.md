@@ -46,7 +46,7 @@ If you are interested in using this software to solve different matrix completio
 
 ## Development Notes
 This package should be used at your own risk.
-If you run into any issues, please report them via the [Github issue tracker](https://github.com/ryancorywright/RankProject/issues).
+If you run into any issues, please report them via the [Github issue tracker](https://github.com/ryancorywright/MixedProjectionSoftware/issues).
 
 ## Reproducing output from the paper
 The script files used to generate output in the paper are currently designed to be run on MITs engaging cluster, and therefore require a small amount of editing before they can be run on a personal computer (in particular, modifying the line "for ARG in ARGS" to "for ARG in ["1", "2", ...]"). You can reproduce the output used to create a figure or table by running the files "createFigurex.jl" or "createTabley.jl", or view it by looking at the associated Excel notebooks, where available. 
